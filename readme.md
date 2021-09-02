@@ -2,7 +2,7 @@
 
 Preview Links is a small javascript library that adds tooltip previews of links when you hover or focus on a link.
 
-[a demo of the library showing the tool tip preview of a link](demo.png)
+![a demo of the library showing the tool tip preview of a link](demo.png)
 
 ## How to use
 
@@ -109,4 +109,5 @@ You can use the styles that are in this repository as a starting point, or build
   z-index: 99;
 }
 ```
+
 The `.preview-modal` is the class that is set in the configuration object by setting `PreviewModalSelector` field. So whatever you set there should have the above css properties or some similar variation.
