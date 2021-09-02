@@ -5,7 +5,7 @@
  * Plugin Description: When User hovers over links will add a preview of the page that the link links to.
  */
 define('PL_DIR', plugin_dir_path(__FILE__));
-define('PL_URL', plugin_dir_url(__FILE__);
+define('PL_URL', plugin_dir_url(__FILE__));
 add_action(
 	'wp_enqueue_scripts',
 	
