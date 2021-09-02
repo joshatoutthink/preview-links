@@ -1,0 +1,39 @@
+body, body * {
+
+  background-origin: border-box;
+}
+
+.preview-modal{
+  position: absolute;
+  top:var(--position-y, calc(100% + 5px));
+  left:var(--position-x,0%);
+  z-index: 99;
+  background:white;
+  box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+  min-width:200px;
+  width:50vw;
+  max-width:300px;
+  display: block;
+  padding:20px;
+  height:auto;
+  max-height:300px;
+  overflow:scroll;
+  border-radius: 20px;
+  color:#333;
+}
+.preview-modal .title, .preview-modal h4 {
+  margin-top:0;
+  margin-bottom:0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.preview-modal img.image {
+  margin-top:20px;
+  object-fit: cover;
+  max-height:200px;
+  height:auto;
+  width:100%;
+  overflow:hidden;
+  box-shadow:inset 0 0 13px black;
+  border-radius:6px;
+}

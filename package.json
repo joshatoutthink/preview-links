@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev":"serve ."
-
+    "dev":"serve .",
+    "build":"./buildscript.sh"
   }
 }
