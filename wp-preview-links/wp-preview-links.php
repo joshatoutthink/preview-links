@@ -16,9 +16,10 @@ add_action(
 		);
 
 	}
-)
+);
+
 add_action('wp_head', function(){
-?>
+ ?>
 <script type="module">
 		import {PreviewLinks} from "<?php echo PL_URL . 'prod.preview-links.js'; ?>";
 		const pl = new PreviewLinks({
@@ -27,4 +28,4 @@ add_action('wp_head', function(){
 		addEventListener('DOMContentLoaded',pl.init);
 	</script>
 <?php
-}
+});
